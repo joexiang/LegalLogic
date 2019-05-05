@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>第六节 命题逻辑的NP系统 · GitBook</title>
+        <title>第五节 命题逻辑的NP系统 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -58,7 +58,7 @@
 
     
     
-    <link rel="prev" href="综合推理实例分析.html" />
+    <link rel="prev" href="复合命题推理.html" />
     
 
     </head>
@@ -237,25 +237,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.5" data-path="综合推理实例分析.html">
-            
-                <a href="综合推理实例分析.html">
-            
-                    
-                    第五节 综合推理实例分析
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.3.6" data-path="命题逻辑的NP系统.html">
+        <li class="chapter active" data-level="1.3.5" data-path="命题逻辑的NP系统.html">
             
                 <a href="命题逻辑的NP系统.html">
             
                     
-                    第六节 命题逻辑的NP系统
+                    第五节 命题逻辑的NP系统
             
                 </a>
             
@@ -298,7 +285,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >第六节 命题逻辑的NP系统</a>
+        <a href=".." >第五节 命题逻辑的NP系统</a>
     </h1>
 </div>
 
@@ -314,6 +301,55 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x7B2C;&#x516D;&#x8282;-&#x547D;&#x9898;&#x903B;&#x8F91;&#x7684;np&#x7CFB;&#x7EDF;">&#x7B2C;&#x516D;&#x8282; &#x547D;&#x9898;&#x903B;&#x8F91;&#x7684;NP&#x7CFB;&#x7EDF;</h1>
+<pre><code>    &#x547D;&#x9898;&#x903B;&#x8F91;&#x5F62;&#x5F0F;&#x7CFB;&#x7EDF;NP&#xFF0C;&#x5BF9;&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x62BD;&#x8C61;&#x51FA;&#x5F62;&#x5F0F;&#x5316;&#x6F14;&#x7B97;&#x7CFB;&#x7EDF;&#x3002;
+    &#x901A;&#x8FC7;&#x5F62;&#x5F0F;&#x8BED;&#x8A00;L&#xFF0C;&#x548C;&#x4E00;&#x7EC4;&#x63A8;&#x5BFC;&#x89C4;&#x5219;&#x53CA;&#x53D8;&#x5F62;&#x89C4;&#x5219;&#xFF0C;&#x63A8;&#x6F14;&#x51FA;&#x6709;&#x6548;&#x7684;&#x63A8;&#x7406;&#x516C;&#x5F0F;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x547D;&#x9898;&#x903B;&#x8F91;&#x7684;&#x89C4;&#x5F8B;&#x3002;
+</code></pre><h4 id="&#xFF08;&#x4E00;&#xFF09;&#x5F62;&#x5F0F;&#x8BED;&#x8A00;l">&#xFF08;&#x4E00;&#xFF09;&#x5F62;&#x5F0F;&#x8BED;&#x8A00;L</h4>
+<ol>
+<li><p>&#x521D;&#x59CB;&#x7B26;&#x53F7;</p>
+<p>&#xFF08;1&#xFF09;&#x547D;&#x9898;&#x53D8;&#x9879;&#xFF1A;p&#x3001;q&#x3001;r&#x3001;s&#x3001;t&#x7B49;&#xFF1B;</p>
+<p>&#xFF08;2&#xFF09;&#x547D;&#x9898;&#x5E38;&#x9879;&#xFF1A;~&#xFF08;&#x5426;&#x5B9A;&#xFF09;&#x3001;-&gt;&#xFF08;&#x8574;&#x542B;&#xFF09;&#x3001;&lt;-&gt;&#xFF08;&#x7B49;&#x503C;&#xFF09;&#x3001;V&#xFF08;&#x6790;&#x53D6;&#xFF09;&#x3001;^&#xFF08;&#x5408;&#x53D6;&#xFF09;&#xFF1B;</p>
+<p>&#xFF08;3&#xFF09;&#x6280;&#x672F;&#x7B26;&#x53F7;&#xFF1A;&#xFF08;&#xFF09;&#xFF0C;&#x4E09;&#x79CD;&#xFF0C;&#x7528;&#x4E8E;&#x533A;&#x5206;&#x8F96;&#x57DF;&#x548C;&#x987A;&#x5E8F;&#x3002;</p>
+</li>
+<li><p>&#x5F62;&#x6210;&#x89C4;&#x5219;</p>
+<p>&#xFF08;1&#xFF09;&#x6BCF;&#x4E00;&#x4E2A;&#x547D;&#x9898;&#x53D8;&#x9879;&#x662F;&#x516C;&#x5F0F;&#xFF1B;</p>
+<p>&#xFF08;2&#xFF09;&#x547D;&#x9898;&#x53D8;&#x9879;&#x4E0E;&#x547D;&#x9898;&#x5E38;&#x9879;&#x7EC4;&#x5408;&#x6210;&#x4E3A;&#x516C;&#x5F0F;&#xFF1B;&#x5982;~q&#x6216;p-&gt;q&#x7B49;&#xFF1B;</p>
+<p>&#xFF08;3&#xFF09;&#x9664;&#x6B64;&#x4E4B;&#x5916;&#x6CA1;&#x6709;&#x5176;&#x4ED6;&#x516C;&#x5F0F;&#x3002;</p>
+</li>
+</ol>
+<h4 id="&#xFF08;&#x4E8C;&#xFF09;&#x63A8;&#x5BFC;&#x89C4;&#x5219;&#x4E0E;&#x5F62;&#x5F0F;&#x63A8;&#x6F14;">&#xFF08;&#x4E8C;&#xFF09;&#x63A8;&#x5BFC;&#x89C4;&#x5219;&#x4E0E;&#x5F62;&#x5F0F;&#x63A8;&#x6F14;</h4>
+<ol>
+<li><p>&#x63A8;&#x5BFC;&#x89C4;&#x5219;</p>
+<p>&#xFF08;1&#xFF09;&#x7ED3;&#x6784;&#x89C4;&#x5219;&#xFF08;&#x80AF;&#x5B9A;&#x524D;&#x63D0;&#x89C4;&#x5219;&#xFF0C;&#x7B80;&#x8BB0;&#x4E3A;P&#xFF09;</p>
+<p>&#x200B;    &#x5176;&#x524D;&#x63D0;&#x5747;&#x4E3A;&#x771F;&#xFF0C;&#x53EF;&#x968F;&#x65F6;&#x5F15;&#x5165;&#xFF08;&#x4E00;&#x822C;&#x5728;&#x63A8;&#x6F14;&#x65F6;&#xFF0C;&#x5148;&#x7F57;&#x5217;&#x524D;&#x63D0;&#xFF09;</p>
+<p>&#xFF08;2&#xFF09;&#x8054;&#x7ED3;&#x8BCD;&#x89C4;&#x5219;&#xFF1A;&#x53EF;&#x4E34;&#x65F6;&#x5F15;&#x5165;&#x5047;&#x8BBE;&#xFF08;&#x7B80;&#x8BB0;&#x4E3A;H&#xFF09;&#xFF08;&#x5982;&#x4E34;&#x65F6;&#x5047;&#x8BBE;~p&#xFF0C;&#x901A;&#x8FC7;~p&#x63A8;&#x51FA;&#x77DB;&#x76FE;&#x5F0F;&#xFF0C;&#x8BC1;&#x660E;&#x5F85;&#x8BC1;p&#x3002;&#xFF09;</p>
+<p>&#x200B;    i. &#x5426;&#x5B9A;&#x89C4;&#x5219;&#xFF1A;&#x7ED3;&#x8BBA;&#x4E3A;&#x77DB;&#x76FE;&#x5F0F;&#x7684;&#x547D;&#x9898;&#x524D;&#x4EF6;&#x4E3A;&#x5047;&#x547D;&#x9898;&#xFF0C;&#x4ECE;&#x800C;&#x5F15;&#x5165;&#x6216;&#x6D88;&#x53BB;&#x5426;&#x5B9A;&#x5426;&#x5B9A;~&#xFF1B;</p>
+<p>&#x200B;    ii. &#x8574;&#x542B;&#x89C4;&#x5219;</p>
+<p>&#x200B;    iii. &#x5408;&#x53D6;&#x89C4;&#x5219;</p>
+<p>&#x200B;    iiii. &#x6790;&#x53D6;&#x89C4;&#x5219;</p>
+<p>&#x200B;    iiiii. &#x7B49;&#x503C;&#x89C4;&#x5219;    </p>
+<p>&#xFF08;3&#xFF09;&#x5BFC;&#x51FA;&#x89C4;&#x5219;&#xFF1A;&#x4F9D;&#x636E;&#x7ED3;&#x6784;&#x89C4;&#x5219;&#x548C;&#x8054;&#x7ED3;&#x8BCD;&#x89C4;&#x5219;&#x63A8;&#x5BFC;&#x51FA;&#x7684;&#x89C4;&#x5219;</p>
+<p>&#x200B;    &#x4E09;&#x6BB5;&#x8BBA;&#x89C4;&#x5219;&#xFF08;H.S&#xFF09;&#xFF1A;p-&gt;q,q-&gt;r&#x5219;p-&gt;r</p>
+<p>&#x200B;    &#x5047;&#x8A00;&#x6613;&#x4F4D;&#x89C4;&#x5219;&#xFF08;H.T&#xFF09;&#xFF1A;p-&gt;q&#x5219;~q-&gt;~p</p>
+<p>&#x200B;    &#x4E8C;&#x96BE;&#x63A8;&#x7406;&#x89C4;&#x5219;&#xFF08;D.C&#xFF09;&#xFF1A;p-&gt;r,q-&gt;r,pVq,&#x5219;r</p>
+<p>&#x200B;    &#x53CC;&#x5426;&#x89C4;&#x5219;&#xFF08;~~&#xFF09;&#xFF1A;&#x53CC;&#x91CD;&#x5426;&#x5B9A;&#x662F;&#x80AF;&#x5B9A;</p>
+<p>&#x200B;    &#x7B49;&#x503C;&#x66FF;&#x6362;&#x89C4;&#x5219;&#xFF08;R.P&#xFF09;&#xFF1A;&#xFF08;&#xFF08;~p&#xFF09;V&#xFF08;~q&#xFF09;&#xFF09;&#x4E0E;&#xFF08;~&#xFF08;p^q&#xFF09;&#xFF09;&#x7B49;&#x503C;&#x66FF;&#x6362;&#x3002;</p>
+</li>
+<li><p>&#x5F62;&#x5F0F;&#x63A8;&#x6F14;</p>
+</li>
+</ol>
+<blockquote>
+<p>&#x8BC1;&#x660E;&#x590D;&#x5408;&#x547D;&#x9898;&#x63A8;&#x7406;&#x7684;&#x6709;&#x6548;&#x6027;&#xFF0C;&#x5728;&#x547D;&#x9898;&#x903B;&#x8F91;&#x81EA;&#x7136;&#x63A8;&#x7406;&#x4E2D;&#xFF0C;&#x5C31;&#x662F;&#x8F6C;&#x5316;&#x4E3A;&#x5BF9;&#x524D;&#x63D0;&#x4E0E;&#x7ED3;&#x8BBA;&#x7684;&#x8574;&#x542B;&#x5F0F;&#x63A8;&#x7406;&#x6F14;&#x7B97;&#x3002;</p>
+<p>&#x81EA;&#x7136;&#x63A8;&#x7406;&#x7CFB;&#x7EDF;NP&#x662F;&#x6709;&#x524D;&#x63D0;&#x7684;&#x5F62;&#x5F0F;&#x63A8;&#x6F14;&#x7CFB;&#x7EDF;&#xFF1A;&#x4E00;&#x4E2A;&#x6709;&#x7A77;&#x7684;&#x516C;&#x5F0F;&#x7CFB;&#x5217;q&#x3001;q&#x3001;r&#x3001;s&#x662F;&#x4ECE;&#x524D;&#x63D0;&#x96C6;&#x5408;A&#x5230;&#x7ED3;&#x8BBA;B&#x7684;&#x5F62;&#x5F0F;&#x63A8;&#x6F14;</p>
+</blockquote>
+<p>&#x200B;    &#xFF08;1&#xFF09;p&#x3001;q&#x3001;r&#x3001;s&#x662F;&#x524D;&#x63D0;&#x96C6;&#x5408;A&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x516C;&#x5F0F;&#xFF1B;</p>
+<p>&#x200B;    &#xFF08;2&#xFF09;p&#x3001;q&#x3001;r&#x3001;s&#x662F;&#x4E34;&#x65F6;&#x5F15;&#x5165;&#x7684;&#x5047;&#x8BBE;&#x516C;&#x5F0F;&#xFF1B;</p>
+<p>&#x200B;    &#xFF08;3&#xFF09;p&#x3001;q&#x3001;r&#x3001;s&#x662F;&#x5728;&#x524D;&#x7684;&#x4E00;&#x4E2A;&#x6216;&#x82E5;&#x5E72;&#x4E2A;&#x516C;&#x5F0F;&#xFF0C;&#x8FD0;&#x7528;&#x63A8;&#x5BFC;&#x89C4;&#x5219;&#x5F97;&#x51FA;&#x7684;&#x516C;&#x5F0F;&#x3002;</p>
+<p>&#x200B;    &#xFF08;4&#xFF09;&#x7ED3;&#x8BBA;B&#x662F;&#x6839;&#x636E;&#x524D;&#x8FF0;&#x516C;&#x5F0F;&#x63A8;&#x5BFC;&#x51FA;&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x516C;&#x5F0F;&#x3002;</p>
+<h4 id="&#xFF08;&#x4E09;&#xFF09;np&#x7CFB;&#x7EDF;&#x7684;&#x53EF;&#x9760;&#x6027;&#x4E0E;&#x5B8C;&#x5168;&#x6027;">&#xFF08;&#x4E09;&#xFF09;NP&#x7CFB;&#x7EDF;&#x7684;&#x53EF;&#x9760;&#x6027;&#x4E0E;&#x5B8C;&#x5168;&#x6027;</h4>
+<pre><code>    &#x6839;&#x636E;&#x771F;&#x503C;&#x8868;&#x6CD5;&#x3001;&#x5F52;&#x8C2C;&#x6CD5;&#x3001;&#x8574;&#x542B;&#x5173;&#x7CFB;&#x7684;&#x4F20;&#x9012;&#x6027;&#x7B49;&#x53EF;&#x8BC1;&#x660E;**&#x63A8;&#x5BFC;&#x89C4;&#x5219;**&#x8868;&#x73B0;&#x51FA;&#x91CD;&#x8A00;&#x5F0F;&#x7684;&#x6027;&#x8D28;&#xFF0C;&#x7531;&#x4E4B;&#x63A8;&#x5BFC;&#x51FA;&#x7684;&#x516C;&#x5F0F;&#x5FC5;&#x4E3A;&#x91CD;&#x8A00;&#x5F0F;&#x3002;&#x56E0;&#x6B64;NP&#x7CFB;&#x7EDF;&#x662F;&#x8BED;&#x4E49;&#x53EF;&#x9760;&#x7684;&#x3002;
+    NP&#x7CFB;&#x7EDF;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x91CD;&#x8A00;&#x5F0F;&#x5728;&#x8BE5;&#x7CFB;&#x7EDF;&#x4E2D;&#x90FD;&#x662F;&#x53EF;&#x8BC1;&#x660E;&#x7684;&#xFF0C;&#x56E0;&#x6B64;NP&#x7CFB;&#x7EDF;&#x662F;&#x8BED;&#x4E49;&#x5B8C;&#x5168;&#x7684;&#x3002;
+</code></pre><p>&#x200B;    NP&#x7CFB;&#x7EDF;&#x662F;&#x8BED;&#x4E49;&#x5B8C;&#x5168;&#x7684;&#x548C;&#x8BED;&#x4E49;&#x53EF;&#x9760;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x53EA;&#x8981;&#x6309;&#x7167;&#x63A8;&#x7406;&#x7684;&#x63A8;&#x5BFC;&#x89C4;&#x5219;&#x8FDB;&#x884C;&#xFF0C;&#x5219;&#x63A8;&#x8BBA;&#x90FD;&#x662F;&#x6709;&#x6548;&#x7684;&#x3002;</p>
+<p>&#x200B;    NP&#x7CFB;&#x7EDF;&#x7684;&#x5B9A;&#x7406;&#x6A21;&#x578B;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x601D;&#x7EF4;&#x548C;&#x8868;&#x8FBE;&#x7684;&#x57FA;&#x672C;&#x65B9;&#x6CD5;&#x3002;</p>
 
                                 
                                 </section>
@@ -341,7 +377,7 @@
 
             
                 
-                <a href="综合推理实例分析.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 第五节 综合推理实例分析">
+                <a href="复合命题推理.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 第四节 复合命题推理">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -353,7 +389,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第六节 命题逻辑的NP系统","level":"1.3.6","depth":2,"previous":{"title":"第五节 综合推理实例分析","level":"1.3.5","depth":2,"path":"Chapter2/综合推理实例分析.md","ref":"Chapter2/综合推理实例分析.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter2/命题逻辑的NP系统.md","mtime":"2019-03-24T14:42:11.746Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-03T11:40:23.863Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"第五节 命题逻辑的NP系统","level":"1.3.5","depth":2,"previous":{"title":"第四节 复合命题推理","level":"1.3.4","depth":2,"path":"Chapter2/复合命题推理.md","ref":"Chapter2/复合命题推理.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter2/命题逻辑的NP系统.md","mtime":"2019-05-04T12:52:40.767Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-05T13:42:30.932Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
